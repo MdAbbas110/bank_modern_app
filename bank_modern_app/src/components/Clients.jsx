@@ -12,7 +12,7 @@ const Clients = () => (
           <img
             src={client.logo}
             alt='logo'
-            className='sm:w-[192px] w-[100px] object-contain'
+            className='sm:w-[192px] w-[100px] object-contain hover:bg-secondary rounded-lg transition-ease-in-out p-2'
           />
         </div>
       ))}
